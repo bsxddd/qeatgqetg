@@ -311,9 +311,9 @@ setInterval(function() {  if(spam == true){
   item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "឵" + spamtext.value}, '*')
 ); s_id = 4;}
 	else if(s_id == 4){document.querySelectorAll('iframe').forEach( item =>
-  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "github.com/anonimbiri"}, '*')
+  item.contentWindow.postMessage({'command': 'spam', 'spam': spam, 'spamid': spamid,  'text': "discord.gg/034"}, '*')
 ); s_id = 1;} } 
-}, 3000);
+}, 1000);
 
 kickbutton.addEventListener("click", function () {
 	
@@ -368,7 +368,7 @@ iziToast.success({
     message: 'Script loaded',
 	buttons: [
         ['<button>Open Source Code</button>', function (instance, toast) {
-            window.open("https://github.com/anonimbiri/gartic.io-bot");
+            window.open("file:///C:/Users/mikey/Desktop/Yeni%20Metin%20Belgesi%20(2).html");
         }, true],],
 });
 }else{
